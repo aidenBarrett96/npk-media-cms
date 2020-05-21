@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_general_circle_links",
+  "info": {
+    "name": "circle link",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "large": {
+      "type": "boolean"
+    }
+  }
+}

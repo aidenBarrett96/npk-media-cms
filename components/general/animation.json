@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_general_animations",
+  "info": {
+    "name": "animation",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "data": {
+      "type": "json"
+    }
+  }
+}

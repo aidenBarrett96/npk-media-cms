@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "project"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "client": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "hero": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images", "files", "videos"],
+      "plugin": "upload",
+      "required": false
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "general.testimonial",
+        "project.content-with-embed",
+        "project.content-with-images",
+        "general.link",
+        "general.circle-link"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "categories": {
+      "collection": "category"
+    }
+  }
+}

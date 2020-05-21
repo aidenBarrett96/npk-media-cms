@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_general_contact_sections",
+  "info": {
+    "name": "Contact Section",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

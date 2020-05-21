@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_project_content_with_images",
+  "info": {
+    "name": "content with images",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.three-image-layout"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.link"
+    }
+  }
+}

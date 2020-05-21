@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_general_other_services",
+  "info": {
+    "name": "Other Services",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "model": "category"
+    }
+  }
+}

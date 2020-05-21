@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_general_animated_stories",
+  "info": {
+    "name": "Animated Story",
+    "icon": "otter"
+  },
+  "options": {},
+  "attributes": {
+    "autoplay": {
+      "type": "boolean"
+    },
+    "animation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.animation"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.animation-buttons"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_project_categories",
+  "info": {
+    "name": "category",
+    "icon": "box-open"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_general_animation_buttons",
+  "info": {
+    "name": "Animation Buttons",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.circle-link"
+    },
+    "entry_stage": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_general_latest_projects",
+  "info": {
+    "name": "Latest Projects",
+    "icon": "audio-description"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "model": "category"
+    }
+  }
+}

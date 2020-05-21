@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "pages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "general.circle-link",
+        "general.link",
+        "general.testimonial",
+        "general.three-image-layout",
+        "project.category",
+        "project.content-with-embed",
+        "project.content-with-images",
+        "general.other-services",
+        "general.animated-story",
+        "general.contact-section",
+        "general.rich-text",
+        "general.latest-projects"
+      ]
+    },
+    "animation": {
+      "type": "json"
+    }
+  }
+}
