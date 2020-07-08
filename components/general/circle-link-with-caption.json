@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_general_circle_link_with_captions",
+  "info": {
+    "name": "Circle Link with Caption",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.link"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

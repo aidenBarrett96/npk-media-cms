@@ -21,7 +21,11 @@
     "hero": {
       "model": "file",
       "via": "related",
-      "allowedTypes": ["images", "files", "videos"],
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
       "plugin": "upload",
       "required": false
     },
@@ -32,7 +36,8 @@
         "project.content-with-embed",
         "project.content-with-images",
         "general.link",
-        "general.circle-link"
+        "general.circle-link",
+        "general.circle-link-with-caption"
       ]
     },
     "slug": {
