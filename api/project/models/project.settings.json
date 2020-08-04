@@ -37,7 +37,8 @@
         "project.content-with-images",
         "general.link",
         "general.circle-link",
-        "general.circle-link-with-caption"
+        "general.circle-link-with-caption",
+        "general.rich-text"
       ]
     },
     "slug": {

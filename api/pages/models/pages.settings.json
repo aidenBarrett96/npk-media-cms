@@ -30,11 +30,11 @@
         "general.animated-story",
         "general.contact-section",
         "general.rich-text",
-        "general.latest-projects"
+        "general.latest-projects",
+        "general.animation-buttons",
+        "general.circle-link-with-caption",
+        "general.animation"
       ]
-    },
-    "animation": {
-      "type": "json"
     }
   }
 }

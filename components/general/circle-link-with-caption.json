@@ -8,7 +8,7 @@
   "attributes": {
     "link": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "general.link"
     },
     "text": {
